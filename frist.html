@@ -1,0 +1,28 @@
+<!-- Save as index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Form</title>
+</head>
+<body>
+
+  <h2>User Info Form</h2>
+  <form
+  action="https://formspree.io/f/xqalgwbp"
+  method="POST"
+>
+  <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="mobile">Mobile:</label><br>
+    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
